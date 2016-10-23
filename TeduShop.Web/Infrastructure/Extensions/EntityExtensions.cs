@@ -10,6 +10,7 @@ namespace TeduShop.Web.Infrastructure.Extensions
     //phương thức mở rộng
     public static class EntityExtensions
     {
+        //khi dùng UpdatePostCategory nó sẽ tự động map sang đối tượng postCategoryVm sẽ k phải dùng foreach để map ra view nữa
         public static void UpdatePostCategory(this PostCategory postCategory, PostCategoryViewModel postCategoryVm)
         {
             postCategory.ID = postCategoryVm.ID;
