@@ -1,7 +1,8 @@
-﻿(function (app) {
-    app.Controller('productListController', homeController);
+﻿
+(function (app) {
+    app.controller('productListController', productListController);
 
-    function homeController() {
+    function productListController() {
 
     }
 })(angular.module('tedushop.products'));

@@ -1,7 +1,7 @@
 ﻿(function (app) {
-    app.Controller('homeController', homeController);
+    app.controller('homeController', homeController);
 
     function homeController() {
-        
+
     }
 })(angular.module('tedushop'));

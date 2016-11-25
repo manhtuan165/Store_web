@@ -1,4 +1,4 @@
-﻿/// <reference path="F:\mvc.net\teduShop\git\Store_web\TeduShop.Web\Assets/admin/libs/angular/angular.js" />
+﻿/// <reference path="F:/Assets/admin/libs/angular/angular.js" />
 
 
 (function () {
